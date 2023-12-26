@@ -267,24 +267,20 @@ main .projects .container .wrapper .project {
   transition: 120ms ease-out;
 }
 
-main .projects .container .wrapper .project.einstein {
-  background-image: url('media/projects/einstein.png')
+main .projects .container .wrapper .project.mouds {
+  background-image: url('media/projects/mouds.png')
 }
 
-main .projects .container .wrapper .project.connectfour {
+main .projects .container .wrapper .project.coming1 {
   background-image: url('media/projects/connectfour.png')
 }
 
-main .projects .container .wrapper .project.connectfour {
-  background-image: url('media/projects/connectfour.png')
-}
-
-main .projects .container .wrapper .project.dbots {
-  background-image: url('media/projects/dbots.webp')
-}
-
-main .projects .container .wrapper .project.rdev {
+main .projects .container .wrapper .project.coming2 {
   background-image: url('media/projects/rdev.webp')
+}
+
+main .projects .container .wrapper .project.coming3 {
+  background-image: url('media/projects/dbots.webp')
 }
 
 main .projects .container .wrapper:hover > .text, main .projects .container .wrapper:hover > .text > * {
