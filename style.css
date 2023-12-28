@@ -392,6 +392,7 @@ main footer button ion-icon {
   main footer .socials { 
     flex-direction: column;
   }
+
 }
 
 ::selection {

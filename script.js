@@ -51,3 +51,18 @@ function changeTheme() {
     document.getElementById('theme-icon').setAttribute('name','moon-outline');
   }	
 }
+
+var isPlaying = true;
+var audio = document.querySelector('audio');
+
+  function toggleMusic() {
+    if (isPlaying) {
+       document.getElementById('sound').setAttribute('name','play');
+       audio.pause();
+    } else {
+       document.getElementById('sound').setAttribute('name','pause');
+       audio.play();
+    }
+
+    isPlaying = !isPlaying;
+  }
