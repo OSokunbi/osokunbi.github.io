@@ -52,7 +52,7 @@ function changeTheme() {
   }	
 }
 
-var isPlaying = true;
+var isPlaying = false;
 var audio = document.querySelector('audio');
 
   function toggleMusic() {
