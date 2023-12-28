@@ -13,12 +13,12 @@
   <meta content="#1031ae" data-react-helmet="true" name="theme-color" />
 </head>
 
-<audio autoplay>
-   <source src="media/whiteferrari.mp3" type="audio/mp3">
-   <source src="media/whiteferrari.ogg" type="audio/ogg">
-</audio>
 
 <body class="" id="body">
+   <audio>
+      <source src="media/whiteferrari.mp3" type="audio/mp3">
+      <source src="media/whiteferrari.ogg" type="audio/ogg">
+   </audio>
   <main>
     <img src="media/pfp.png" alt="My profile picture">
 
@@ -100,7 +100,9 @@
         </a>
       </div>
 
-      <p>currently busy with school and some other cool stuff 💻</p>
+      <p>currently busy with school and some other cool stuff 💻<br> 
+         press the play button to hear one of my favorite songs!
+      </p>
     </section>
 
     <section class="sayhi">
@@ -152,7 +154,7 @@
         <ion-icon name="moon-outline" id="theme-icon"></ion-icon>
       </button>
        <button onclick="toggleMusic()">
-          <ion-icon name="pause" id="sound"></ion-icon>
+          <ion-icon name="play" id="sound"></ion-icon>
        </button>
     </footer>
   </main>
