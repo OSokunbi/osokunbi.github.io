@@ -59,9 +59,11 @@ var audio = document.querySelector('audio');
     if (isPlaying) {
        document.getElementById('sound').setAttribute('name','play');
        audio.pause();
+       console.log('audio paused')
     } else {
        document.getElementById('sound').setAttribute('name','pause');
        audio.play();
+       console.log('audio playing')
     }
 
     isPlaying = !isPlaying;
