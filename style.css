@@ -107,7 +107,7 @@ a {
   text-decoration: none;
   transition: 120ms ease-out;
   border-bottom: 1.5px solid var(--foreground-3);
-  padding-bottom: 1px;	
+  padding-bottom: 1px;
   color: var(--foreground-1);
   display: inline-flex;
   align-items: center;
@@ -216,7 +216,7 @@ main .about h1 span:hover {
 
 @keyframes wave {
   0% { transform: scale(1.1); }
-  25% { transform: scale(1.1) rotate(-3deg); }	
+  25% { transform: scale(1.1) rotate(-3deg); }
   50% { transform: scale(1.1) rotate(3deg); }
   75% { transform: scale(1.1) rotate(-3deg); }
   100% { transform: scale(1.1) rotate(3deg); }
@@ -268,7 +268,8 @@ main .projects .container .wrapper .project {
 }
 
 main .projects .container .wrapper .project.mouds {
-  background-image: url('media/projects/mouds.png')
+  background-color: black;
+  background-image: url('media/projects/mouds-demo.png')
 }
 
 main .projects .container .wrapper .project.coming1 {
@@ -374,7 +375,7 @@ main footer button ion-icon {
 
   main .projects .container .wrapper {
     width: 100%;
-  }	
+  }
 
   main .projects .container .wrapper .project {
     width: 100%;
@@ -389,7 +390,7 @@ main footer button ion-icon {
     align-items: flex-start;
   }
 
-  main footer .socials { 
+  main footer .socials {
     flex-direction: column;
   }
 
