@@ -272,8 +272,9 @@ main .projects .container .wrapper .project.mouds {
   background-image: url('media/projects/mouds-demo.png')
 }
 
-main .projects .container .wrapper .project.coming1 {
-  background-image: url('media/projects/connectfour.png')
+main .projects .container .wrapper .project.oreo {
+  background-color: black;
+  background-image: url('media/projects/oreo.png')
 }
 
 main .projects .container .wrapper .project.coming2 {
