@@ -183,7 +183,7 @@ main > img {
 }
 
 img:hover {
-  animation: jiggle 0.3s infinite;
+  animation: spin 5s infinite;
   filter: drop-shadow(0 8px 4px var(--text-shadow));
 }
 
@@ -399,4 +399,9 @@ main footer button ion-icon {
 
 ::selection {
   background: var(--background-3);
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
 }
