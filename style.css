@@ -277,8 +277,10 @@ main .projects .container .wrapper .project.oreo {
   background-image: url('media/projects/oreo-blog.png')
 }
 
-main .projects .container .wrapper .project.coming2 {
-  background-image: url('media/projects/rdev.webp')
+main .projects .container .wrapper .project.kro {
+  background-image: url('media/projects/kro-image.png');
+  background-color: black;
+  background-size: cover;
 }
 
 main .projects .container .wrapper .project.coming3 {
