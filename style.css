@@ -281,6 +281,7 @@ main .projects .container .wrapper .project.kro {
   background-image: url('media/projects/kro-image.png');
   background-color: black;
   background-size: cover;
+  height: 100%;
 }
 
 main .projects .container .wrapper .project.coming3 {
