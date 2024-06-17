@@ -46,7 +46,11 @@ function changeTheme() {
 var isPlaying = false;
 var audio = document.querySelector('audio');
 
+window.onload = function() {
+  document.getElementById("music").click();
+}
   function toggleMusic() {
+    audio.volume = 0.05;
     if (isPlaying) {
        document.getElementById('sound').setAttribute('name','play');
        audio.pause();
