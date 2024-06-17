@@ -46,8 +46,13 @@ function changeTheme() {
 var isPlaying = false;
 var audio = document.querySelector('audio');
 
-window.onload = function() {
-  document.getElementById("music").click();
+window.addEventListener("keydown", checkKeyPressed, false);
+
+function checkKeyPressed(e) {
+  if(e.keyCode == "32") {
+    toggleMusic();
+    document.getElementById("music").scrollIntoView()
+  }
 }
   function toggleMusic() {
     audio.volume = 0.05;
