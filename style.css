@@ -269,7 +269,7 @@ main .projects .container .wrapper .project {
 
 main .projects .container .wrapper .project.mouds {
   background-color: black;
-  background-image: url('media/projects/mouds-demo.png')
+  /* background-image: url('media/projects/mouds-demo.png') */
 }
 
 main .projects .container .wrapper .project.oreo {

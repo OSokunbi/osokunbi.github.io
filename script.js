@@ -46,6 +46,20 @@ function changeTheme() {
 var isPlaying = false;
 var audio = document.querySelector('audio');
 
+let age = document.getElementById('age');
+function getAge() {
+  var dob = new Date('2005-11-17');
+  var today = new Date();
+  var age = today.getFullYear() - dob.getFullYear();
+  var m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  return age;
+}
+
+age.innerHTML = getAge();
+
 window.addEventListener("keydown", checkKeyPressed, false);
 
 function checkKeyPressed(e) {
